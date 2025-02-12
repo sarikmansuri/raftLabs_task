@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
 dotenv.config();
 
+
 // Register a new user
 exports.register = async (req, res) => {
     try {
